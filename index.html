@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>ChrisN Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <span class="logo">CHRISN</span>
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#sobre">Sobre</a></li>
+          <li><a class="main-nav-link" href="#resume">Skills</a></li>
+          <li><a class="main-nav-link" href="#projetos">Projetos</a></li>
+          <li><a class="main-nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ABOUT -->
+      <section class="about">
+        <div class="about-text-box">
+          <h1 class="heading-primary">
+            Hello! I'm Chris, a self taught developer.
+          </h1>
+          <p>
+            Formado em Análise e Desenvolvimento de Sistemas. Gosto de estudar e
+            aprender novas tecnologias aprimorando as minhas habilidades para
+            melhor resolução de problemas. Através das minhas experiências tive
+            a oportunidade de realizar trabalhos em grupo, participar de
+            projetos e voluntariados, o que me auxiliou no desenvolvimento do
+            meu trabalho em equipe, comunicação e organização.
+          </p>
+          <a href="https://github.com/rootcherry" target="_blank" rel="noopener noreferrer" class="btn btn--full margin-right-sm">GitHub</a>
+          <a href="https://www.linkedin.com/in/cristiano-noga" target="_blank" rel="noopener noreferrer" class="btn btn--full margin-right-sm">LinkedIn</a>
+        </div>
+        <img src="/images/labs.jpg" alt="Profile photo" width="234" height="375">
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="projects">
+        <div class="container">
+          <h2>Projetos</h2>
+          <span>Alguns dos projetos em que tenho trabalhado</span>
+        </div>
+        <div class="flexbox-grid-layout">
+          <div class="project">
+            <a href="#">
+              <img
+                class="project"
+                src="images/fur-riends/fur-riends.png"
+                alt="Foto do projeto fur-riends"
+                width="376"
+                height="205"
+              />
+            </a>
+            <div class="project-content">
+              <h3 class="heading-tertiary">fur-riends</h3>
+              <p class="project-description">
+                Reúne informações e algumas das atividades que são praticadas
+                por uma organização sem fins lucrativos de bem-estar animal,
+                disponibilizando contatos atualizados de instituições para
+                conhecer mais sobre cada trabalho realizado e entrar em contato
+                para ajudar.
+              </p>
+              <div class="project-link">
+                <a href="#" class="link">Ver Projeto →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="contact">
+        <div class="container">
+          <h2>Entre em contato</h2>
+          <span>Sinta-se à vontade para entrar em contato comigo em <span><a href="mailto:hi.chrisn@gmail.com">hi.chrisn@gmail.com<a><span>
+            Você também pode me encontrar <span><a href="https://github.com/rootcherry" target="_blank" rel="noopener noreferrer">GitHub<a><span> e no <span><a href="https://www.linkedin.com/in/cristiano-noga" target="_blank" rel="noopener noreferrer">LinkedIn<a><span>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="flexbox-grid-layout">
+            <p>&copy; <span id="cur-year"></span> by rootcherry - Made with 💚</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
