@@ -3,105 +3,185 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FAVICONS -->
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@400;500;700&display=swap"
       rel="stylesheet"
     />
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
 
-    <title>ChrisN Portfolio</title>
+    <title>Cristiano &mdash; Happy Coding</title>
   </head>
   <body>
-    <header class="header">
-      <a href="#">
-        <span class="logo">CHRISN</span>
-      </a>
-      <nav class="main-nav">
-        <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#sobre">Sobre</a></li>
-          <li><a class="main-nav-link" href="#resume">Skills</a></li>
-          <li><a class="main-nav-link" href="#projetos">Projetos</a></li>
-          <li><a class="main-nav-link" href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div class="container">
+      <header class="header">
+        <a href="#"><span class="logo">cristiano.</span></a>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li><a class="main-nav-link" href="#sobre">Sobre</a></li>
+            <li><a target="_blank" href="pdf/cv.pdf" class="main-nav-link" href="#resume">Resumo</a></li>
+            <li><a class="main-nav-link" href="#projetos">Projetos</a></li>
+            <li><a class="main-nav-link" href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
 
-    <main>
-      <!-- ABOUT -->
-      <section class="about">
-        <div class="about-text-box">
-          <h1 class="heading-primary">
-            Hello! I'm Chris, a self taught developer.
-          </h1>
-          <p>
-            Formado em Análise e Desenvolvimento de Sistemas. Gosto de estudar e
-            aprender novas tecnologias aprimorando as minhas habilidades para
-            melhor resolução de problemas. Através das minhas experiências tive
-            a oportunidade de realizar trabalhos em grupo, participar de
-            projetos e voluntariados, o que me auxiliou no desenvolvimento do
-            meu trabalho em equipe, comunicação e organização.
-          </p>
-          <a href="https://github.com/rootcherry" target="_blank" rel="noopener noreferrer" class="btn btn--full margin-right-sm">GitHub</a>
-          <a href="https://www.linkedin.com/in/cristiano-noga" target="_blank" rel="noopener noreferrer" class="btn btn--full margin-right-sm">LinkedIn</a>
-        </div>
-        <img src="/images/labs.jpg" alt="Profile photo" width="234" height="375">
-      </section>
+      <main>
+        <!-- ABOUT -->
+        <section class="about" id="sobre">
+          <div class="about-text-box">
+            <h1 class="heading-primary">
+              Olá! meu nome é Cristiano, e sou um Desenvolvedor.
+            </h1>
+            <p>
+              Formado em Análise e Desenvolvimento de Sistemas, com interesse em Backend, Data Engineering, Data Science, DSA, Machine Learning, Linux e Web Scraping.
+            </p>
+            <p>
+              Em minhas experiências acadêmicas tive a oportunidade de realizar trabalhos em grupo, participar de projetos e voluntariados. Nas experiências profissionais trabalhei em diferentes projetos adquirindo maior conhecimento na área de Tecnologia, capacidade em resolução de problemas, comunicação e organização, trabalho em equipe, adaptabilidade, aprendizado e melhoria continua.
+            </p>
+            <a
+              href="https://github.com/rootcherry"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn--full margin-right-sm"
+              >GitHub</a
+            >
+            <a
+              href="https://www.linkedin.com/in/cristiano-noga"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn--full margin-right-sm"
+              >LinkedIn</a
+            >
+          </div>
+        </section>
 
-      <!-- PROJECTS -->
-      <section class="projects">
-        <div class="container">
-          <h2>Projetos</h2>
-          <span>Alguns dos projetos em que tenho trabalhado</span>
-        </div>
-        <div class="flexbox-grid-layout">
-          <div class="project">
-            <a href="#">
-              <img
-                class="project"
-                src="images/fur-riends/fur-riends.png"
-                alt="Foto do projeto fur-riends"
-                width="376"
-                height="205"
-              />
-            </a>
-            <div class="project-content">
-              <h3 class="heading-tertiary">fur-riends</h3>
-              <p class="project-description">
-                Reúne informações e algumas das atividades que são praticadas
-                por uma organização sem fins lucrativos de bem-estar animal,
-                disponibilizando contatos atualizados de instituições para
-                conhecer mais sobre cada trabalho realizado e entrar em contato
-                para ajudar.
-              </p>
-              <div class="project-link">
-                <a href="#" class="link">Ver Projeto →</a>
+        <!-- PROJECTS -->
+        <section class="projects" id="projetos">
+          <div class="projects-header">
+            <h2 class="heading-secondary">Projetos</h2>
+            <span class="sub-heading-secondary">Alguns dos projetos em que tenho trabalhado</span>
+          </div>
+          <div class="flexbox-grid-layout">
+            <div class="project">
+              <a href="https://github.com/rootcherry/fur-riends" target="_blank" rel="noopener noreferrer">
+                <img
+                  class="project-image"
+                  src="images/fur-riends/fur-riends.png"
+                  alt="Screenshot of the Fur-riends project"
+                />
+              </a>
+              <div class="project-content">
+                <p class="project-title">fur-riends</p>
+                <p class="project-description">
+                  O projeto fur-riends reúne informações e algumas das atividades que são praticadas por uma organização sem fins lucrativos de bem-estar animal, disponibilizando o contato para conhecer mais sobre cada trabalho realizado e ajudar sendo voluntário ou através de doações.
+                </p>
+                <div class="project-link">
+                  <a href="https://github.com/rootcherry/fur-riends" target="_blank" rel="noopener noreferrer" class="link">Ver Projeto →</a>
+                </div>
               </div>
             </div>
+            <!-- more projects -->
+            <div class="project">
+              <a href="https://github.com/rootcherry/projeto-ext-v" target="_blank" rel="noopener noreferrer">
+                <img
+                  class="project-image"
+                  src="images/aprendizado-sop/sop-hero.png"
+                  alt="Screenshot do projeto"
+                />
+              </a>
+              <div class="project-content">
+                <p class="project-title">Salve o nosso Planeta</p>
+                <p class="project-description">
+                  Projeto de Extensão V com o objetivo tratar questões sobre Sustentabilidade promovendo a inclusão da comunidade e as indústrias para o desenvovilmento de sua região, assim, colaborando pra que o nosso planeta seja um lugar melhor para as próximas gerações.
+                </p>
+                <div class="project-link">
+                  <a href="https://github.com/rootcherry/projeto-ext-v" target="_blank" rel="noopener noreferrer" class="link">Ver Projeto →</a>
+                </div>
+              </div>
+            </div>
+            <div class="project">
+              <a href="https://pw-est.netlify.app" target="_blank" rel="noopener noreferrer">
+                <img
+                  class="project-image"
+                  src="images/pw-est/pw-est.png"
+                  alt="Screenshot do projeto"
+                />
+              </a>
+              <div class="project-content">
+                <p class="project-title">Projetos Web</p>
+                <p class="project-description">
+                  Projeto solicitado pelo Professor da Faculdade para inserir informações dos projetos desenvolvidos por alunos de todos os cursos que ele estava atuando no semestre.
+                </p>
+                <div class="project-link">
+                  <a href="https://pw-est.netlify.app" target="_blank" rel="noopener noreferrer" class="link">Ver Projeto →</a>
+                </div>
+              </div>
+            </div>
+            <div class="project">
+              <a href="https://aprendizado-lp.netlify.app" target="_blank" rel="noopener noreferrer">
+                <img
+                  class="project-image"
+                  src="images/aprendizado-lp/alg-lp-hero.png"
+                  alt="Screenshot do projeto"
+                />
+              </a>
+              <div class="project-content">
+                <p class="project-title">Algoritmos - Lógica de Programação</p>
+                <p class="project-description">
+                  Projeto de Extensão III com o objetivo de apoio aos estudos dos alunos da Faculdade e também foi permitido a distribuição de panfletos na Microlins.
+                </p>
+                <div class="project-link">
+                  <a href="https://aprendizado-lp.netlify.app" target="_blank" rel="noopener noreferrer" class="link">Ver Projeto →</a>
+                </div>
+              </div>
+            </div>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- CONTACT -->
-      <section class="contact">
-        <div class="container">
-          <h2>Entre em contato</h2>
-          <span>Sinta-se à vontade para entrar em contato comigo em <span><a href="mailto:hi.chrisn@gmail.com">hi.chrisn@gmail.com<a><span>
-            Você também pode me encontrar <span><a href="https://github.com/rootcherry" target="_blank" rel="noopener noreferrer">GitHub<a><span> e no <span><a href="https://www.linkedin.com/in/cristiano-noga" target="_blank" rel="noopener noreferrer">LinkedIn<a><span>
-        </div>
-      </section>
-    </main>
+        <!-- CONTACT -->
+        <section class="contact" id="contato">
+          <div class="contact-content">
+            <h2 class="heading-secondary">Entre em contato</h2>
+            <p>
+              Sinta-se à vontade para entrar em contato comigo em
+              <a href="mailto:hi.chrisn@gmail.com"><strong>hi.chrisn@gmail.com</strong></a>. Você também
+              pode me encontrar no
+              <a
+                href="https://github.com/rootcherry"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><strong>GitHub</strong></a
+              >
+              e no
+              <a
+                href="https://www.linkedin.com/in/cristiano-noga"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><strong>LinkedIn</strong></a
+              >.
+            </p>
+          </div>
+        </section>
+      </main>
 
-    <!-- FOOTER -->
-    <footer class="footer">
-        <div class="flexbox-grid-layout">
-            <p>&copy; <span id="cur-year"></span> by rootcherry - Made with 💚</p>
-        </div>
-    </footer>
+      <!-- FOOTER -->
+      <footer class="footer">
+        <p>&copy; <span id="cur-year"></span> Cristiano - Todos os direitos reservados.</p>
+      </footer>
+    </div>
     <script src="js/script.js"></script>
   </body>
 </html>
