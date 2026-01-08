@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
 
@@ -21,182 +21,151 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
 
-    <title>Cristiano &mdash; Happy Coding</title>
+    <title>Cristiano — Happy Coding</title>
   </head>
+
   <body>
-    <div class="container">
-      <header class="header">
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container header-inner">
         <a href="#"><span class="logo">cristiano.</span></a>
         <nav class="main-nav">
           <ul class="main-nav-list">
             <li><a class="main-nav-link" href="#sobre">Sobre</a></li>
-            <li><a target="_blank" href="pdf/Cristiano.pdf" class="main-nav-link" href="#resume">Resumo</a></li>
+            <li>
+              <a
+                class="main-nav-link"
+                href="pdf/Cristiano.pdf"
+                target="_blank"
+                >Resumo</a
+              >
+            </li>
             <li><a class="main-nav-link" href="#projetos">Projetos</a></li>
             <li><a class="main-nav-link" href="#contato">Contato</a></li>
           </ul>
         </nav>
-      </header>
+      </div>
+    </header>
 
-      <main>
-        <!-- ABOUT -->
-        <section class="about" id="sobre">
+    <main>
+      <!-- ABOUT -->
+      <section class="about" id="sobre">
+        <div class="container">
           <div class="about-text-box">
             <h1 class="heading-primary">
-              Olá! meu nome é Cristiano, e sou um Desenvolvedor.
+              Desenvolvedor Back-end focado em JavaScript, Node.js e Engenharia de
+              Software.
             </h1>
-            <!-- <p>
-              Formado em Análise e Desenvolvimento de Sistemas, com interesse em Backend, Data Engineering, Data Science, DSA, Machine Learning, Linux e Web Scraping.
-            </p>
+
             <p>
-              Em minhas experiências acadêmicas tive a oportunidade de realizar trabalhos em grupo, participar de projetos e voluntariados. Nas experiências profissionais trabalhei em diferentes projetos adquirindo maior conhecimento na área de Tecnologia, capacidade em resolução de problemas, comunicação e organização, trabalho em equipe, adaptabilidade, aprendizado e melhoria continua.
-            </p> -->
-            <p>
-              Tenho interesse em desenvolvimento Back-end, utilizando Node.js e em Engenharia de Software. Com formação acadêmica e experiência prática, estou sempre buscando maneiras de aprimorar minhas habilidades, desenvolvimento pessoal, profissional e contribuir para projetos.
+              Olá! Meu nome é Cristiano e sou Desenvolvedor Back-end, com foco em
+              JavaScript e Node.js.
             </p>
+
             <p>
-              Formado em Análise e Desenvolvimento de Sistemas, o que me deu uma base sólida em banco de dados, estrutura de dados e algoritmos, programação orientada a objetos e desenvolvimento de software. Por meio de projetos acadêmicos e práticos, aprofundei meu conhecimento em linguagens como C, C#, JAVA, JavaScript, PHP e tive a oportunidade de realizar trabalhos em equipe e participei de projetos voluntariados.
+              Sou formado em Análise e Desenvolvimento de Sistemas e atuo no
+              desenvolvimento de projetos orientados a dados, aplicando
+              estruturas de dados e algoritmos, boas práticas de engenharia de
+              software e construção de APIs.
             </p>
+
             <p>
-              Além da minha formação acadêmica, adquiri uma valiosa experiência profissional. Trabalhei em diferentes projetos desafiadores, o que aprimorou minhas habilidades de capacidade em resolução de problemas, comunicação e organização, trabalho em equipe, adaptabilidade, aprendizado e melhoria continua.
+              Tenho experiência com web scraping, processamento de dados e
+              desenvolvimento backend em ambientes Linux, utilizando SQL e
+              ferramentas do ecossistema Node.js.
             </p>
+
             <p>
-              Recentemente, obtive certificações em Cloud e Devops e Agile Culture buscando manter-me atualizado com as últimas tendências em tecnologia.
+              Atualmente, dedico-me a projetos autorais que envolvem lógica
+              algorítmica, organização de dados e resolução de problemas.
             </p>
-            <p>
-              Meu objetivo é continuar expandindo meus conhecimentos em desenvolvimento back-end, Engenharia de Software, Clean Code, Clean Architecture, Design Patterns, explorar novas tecnologias e contribuir para projetos inovadores.
-            </p>
+
             <a
               href="https://github.com/rootcherry"
               target="_blank"
-              rel="noopener noreferrer"
-              class="btn btn--full margin-right-sm"
+              class="btn"
               >GitHub</a
             >
             <a
               href="https://www.linkedin.com/in/cristiano-noga"
               target="_blank"
-              rel="noopener noreferrer"
-              class="btn btn--full margin-right-sm"
+              class="btn"
               >LinkedIn</a
             >
           </div>
-        </section>
+        </div>
+      </section>
 
-        <!-- PROJECTS -->
-        <section class="projects" id="projetos">
+      <!-- PROJECTS -->
+      <section class="projects" id="projetos">
+        <div class="container">
           <div class="projects-header">
             <h2 class="heading-secondary">Projetos</h2>
-            <span class="sub-heading-secondary">Alguns dos projetos em que tenho trabalhado</span>
+            <span class="sub-heading-secondary"
+              >Alguns dos projetos em que tenho trabalhado</span
+            >
           </div>
+
           <div class="flexbox-grid-layout">
             <div class="project">
-              <a href="https://github.com/rootcherry/fur-riends" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/rootcherry/fur-riends"
+                target="_blank"
+              >
                 <img
-                  class="project-image"
                   src="images/fur-riends/fur-riends.png"
-                  alt="Screenshot of the Fur-riends project"
+                  alt="Fur-riends project"
                 />
               </a>
+
               <div class="project-content">
                 <p class="project-title">fur-riends</p>
                 <p class="project-description">
-                  O projeto fur-riends reúne informações e algumas das atividades que são praticadas por uma organização sem fins lucrativos de bem-estar animal, disponibilizando o contato para conhecer mais sobre cada trabalho realizado e ajudar sendo voluntário ou através de doações.
+                  Projeto autoral que reúne informações de ONGs e iniciativas
+                  locais de bem-estar animal, com foco em organização de dados e
+                  desenvolvimento web.
                 </p>
-                <div class="project-link">
-                  <a href="https://github.com/rootcherry/fur-riends" target="_blank" rel="noopener noreferrer" class="link">Ver Projeto →</a>
-                </div>
+                <a
+                  class="link"
+                  href="https://github.com/rootcherry/fur-riends"
+                  target="_blank"
+                  >Ver repositório</a
+                >
               </div>
-            </div>
-            <!-- more projects -->
-            <div class="project">
-              <a href="https://github.com/rootcherry/projeto-ext-v" target="_blank" rel="noopener noreferrer">
-                <img
-                  class="project-image"
-                  src="images/aprendizado-sop/sop-hero.png"
-                  alt="Screenshot do projeto"
-                />
-              </a>
-              <div class="project-content">
-                <p class="project-title">Salve o nosso Planeta</p>
-                <p class="project-description">
-                  Projeto de Extensão V com o objetivo tratar questões sobre Sustentabilidade promovendo a inclusão da comunidade e as indústrias para o desenvovilmento de sua região, assim, colaborando pra que o nosso planeta seja um lugar melhor para as próximas gerações.
-                </p>
-                <div class="project-link">
-                  <a href="https://github.com/rootcherry/projeto-ext-v" target="_blank" rel="noopener noreferrer" class="link">Ver Projeto →</a>
-                </div>
-              </div>
-            </div>
-            <div class="project">
-              <a href="https://pw-est.netlify.app" target="_blank" rel="noopener noreferrer">
-                <img
-                  class="project-image"
-                  src="images/pw-est/pw-est.png"
-                  alt="Screenshot do projeto"
-                />
-              </a>
-              <div class="project-content">
-                <p class="project-title">Projetos Web</p>
-                <p class="project-description">
-                  Projeto solicitado pelo Professor da Faculdade para inserir informações dos projetos desenvolvidos por alunos de todos os cursos que ele estava atuando no semestre.
-                </p>
-                <div class="project-link">
-                  <a href="https://pw-est.netlify.app" target="_blank" rel="noopener noreferrer" class="link">Ver Projeto →</a>
-                </div>
-              </div>
-            </div>
-            <div class="project">
-              <a href="https://aprendizado-lp.netlify.app" target="_blank" rel="noopener noreferrer">
-                <img
-                  class="project-image"
-                  src="images/aprendizado-lp/alg-lp-hero.png"
-                  alt="Screenshot do projeto"
-                />
-              </a>
-              <div class="project-content">
-                <p class="project-title">Algoritmos - Lógica de Programação</p>
-                <p class="project-description">
-                  Projeto de Extensão III com o objetivo de apoio aos estudos dos alunos da Faculdade e também foi permitido a distribuição de panfletos na Microlins.
-                </p>
-                <div class="project-link">
-                  <a href="https://aprendizado-lp.netlify.app" target="_blank" rel="noopener noreferrer" class="link">Ver Projeto →</a>
-                </div>
-              </div>
-            </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <!-- CONTACT -->
-        <section class="contact" id="contato">
-          <div class="contact-content">
-            <h2 class="heading-secondary">Entre em contato</h2>
-            <p>
-              Sinta-se à vontade para entrar em contato comigo em
-              <a href="mailto:hi.chrisn@gmail.com"><strong>hi.chrisn@gmail.com</strong></a>. Você também
-              pode me encontrar no
-              <a
-                href="https://github.com/rootcherry"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><strong>GitHub</strong></a
-              >
-              e no
-              <a
-                href="https://www.linkedin.com/in/cristiano-noga"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><strong>LinkedIn</strong></a
-              >.
-            </p>
-          </div>
-        </section>
-      </main>
+      <!-- CONTACT -->
+      <section class="contact" id="contato">
+        <div class="container">
+          <h2 class="heading-secondary">Entre em contato</h2>
+          <p>
+            Você pode falar comigo pelo email
+            <a href="mailto:hi.chrisn@gmail.com">hi.chrisn@gmail.com</a>,
+            ou me encontrar no
+            <a href="https://github.com/rootcherry" target="_blank">GitHub</a> e
+            <a
+              href="https://www.linkedin.com/in/cristiano-noga"
+              target="_blank"
+              >LinkedIn</a
+            >.
+          </p>
+        </div>
+      </section>
+    </main>
 
-      <!-- FOOTER -->
-      <footer class="footer">
-        <p>&copy; <span id="cur-year"></span> Cristiano - Todos os direitos reservados.</p>
-      </footer>
-    </div>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; <span id="cur-year"></span> Cristiano — Todos os direitos
+          reservados.
+        </p>
+      </div>
+    </footer>
+
     <script src="js/script.js"></script>
   </body>
 </html>
