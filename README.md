@@ -1,10 +1,10 @@
-# Cristiano Noga – Portfolio
+# My Portfolio
 
-Hi! I'm Cristiano, a Back-end Developer specializing in JavaScript, Node.js, and software engineering.  
+Hi! I'm Chris, a Back-end Developer specializing in JavaScript, Node.js, and software engineering.  
 
 This portfolio showcases some of my projects, focusing on backend development, data processing, and web scraping.  
 
-🌐 **Visit my website:** [Cristiano's Portfolio](https://hello-chrisn.netlify.app/)  
+🌐 **Visit my website:** [Chris's Portfolio](https://hello-chrisn.netlify.app/)  
 
 📫 **Contact:** [hi.chrisn@gmail.com](mailto:hi.chrisn@gmail.com)  
 
