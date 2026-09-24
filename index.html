@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
 
-    <title>Cristiano — Happy Coding</title>
+    <title>Cristiano Noga — Backend & Data Systems Engineer</title>
   </head>
 
   <body>
@@ -31,17 +31,17 @@
         <a href="#"><span class="logo">cristiano.</span></a>
         <nav class="main-nav">
           <ul class="main-nav-list">
-            <li><a class="main-nav-link" href="#sobre">Sobre</a></li>
+            <li><a class="main-nav-link" href="#sobre">About</a></li>
             <li>
               <a
                 class="main-nav-link"
                 href="/pdf/Cristiano_Noga_Resume.pdf"
                 target="_blank"
-                >Resumo</a
+                >Resume</a
               >
             </li>
-            <li><a class="main-nav-link" href="#projetos">Projetos</a></li>
-            <li><a class="main-nav-link" href="#contato">Contato</a></li>
+            <li><a class="main-nav-link" href="#projetos">Projects</a></li>
+            <li><a class="main-nav-link" href="#contato">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -53,37 +53,35 @@
         <div class="container">
           <div class="about-text-box">
             <h1 class="heading-primary">
-              Desenvolvedor Back-end focado em JavaScript, Node.js e Engenharia de
-              Software.
+              Backend & Data Systems Engineer focused on Python, Node.js, and
+              Software Architecture.
             </h1>
 
             <p>
-              Olá! Meu nome é Cristiano e sou Desenvolvedor Back-end, com foco em
-              JavaScript e Node.js.
+              Hello! I'm Cristiano, a Backend and Data Systems Engineer based in
+              Curitiba, Brazil.
             </p>
 
             <p>
-              Sou formado em Análise e Desenvolvimento de Sistemas e atuo no
-              desenvolvimento de projetos orientados a dados, aplicando
-              estruturas de dados e algoritmos, boas práticas de engenharia de
-              software e construção de APIs.
+              I build end-to-end backend systems and data pipelines that
+              transform unstructured, real-world information into structured,
+              reliable assets, applying solid computer science principles
+              (Harvard CS50) and clean architecture.
             </p>
 
             <p>
-              Tenho experiência com web scraping, processamento de dados e
-              desenvolvimento backend em ambientes Linux, utilizando SQL e
-              ferramentas do ecossistema Node.js.
+              My stack relies on Python, Node.js, relational databases, and
+              low-level system understanding, prioritizing clean code,
+              maintainable design, and rigorous problem-solving over unnecessary
+              abstractions.
             </p>
 
             <p>
-              Atualmente, dedico-me a projetos autorais que envolvem lógica
-              algorítmica, organização de dados e resolução de problemas.
+              Currently focused on advanced data pipelines and domain-driven
+              backend design.
             </p>
 
-            <a
-              href="https://github.com/rootcherry"
-              target="_blank"
-              class="btn"
+            <a href="https://github.com/rootcherry" target="_blank" class="btn"
               >GitHub</a
             >
             <a
@@ -100,42 +98,19 @@
       <section class="projects" id="projetos">
         <div class="container">
           <div class="projects-header">
-            <h2 class="heading-secondary">Projetos</h2>
+            <h2 class="heading-secondary">Projects</h2>
             <span class="sub-heading-secondary"
-              >Alguns dos projetos em que tenho trabalhado</span
+              >Core backend systems and architectural explorations</span
             >
           </div>
 
           <div class="flexbox-grid-layout">
+            <!-- HORRORVERSE -->
             <div class="project">
               <a
-                href="https://github.com/rootcherry/fur-riends"
+                href="https://github.com/rootcherry/scream-queens"
                 target="_blank"
               >
-                <img
-                  src="images/fur-riends/fur-riends.png"
-                  alt="Fur-riends project"
-                />
-              </a>
-
-              <div class="project-content">
-                <p class="project-title">fur-riends</p>
-                <p class="project-description">
-                  Projeto autoral que reúne informações de ONGs e iniciativas
-                  locais de bem-estar animal, com foco em organização de dados e
-                  desenvolvimento web.
-                </p>
-                <a
-                  class="link"
-                  href="https://github.com/rootcherry/fur-riends"
-                  target="_blank"
-                  >Ver repositório</a
-                >
-              </div>
-            </div>
-
-            <div class="project">
-              <a href="https://github.com/rootcherry/scream-queens" target="_blank">
                 <img
                   src="images/horrorverse/horrorverse.jpg"
                   alt="Horrorverse project"
@@ -145,15 +120,44 @@
               <div class="project-content">
                 <p class="project-title">Horrorverse</p>
                 <p class="project-description">
-                  Projeto backend/data-driven com pipeline em Python, SQLite e uma API em Node.js.
-                  Explora dados de filmes/atrizes com filtros e rankings (DSA) e evolução para arquitetura com filas (V2).
+                  Data pipeline & backend system built with Python, SQLite, and
+                  Node.js. Collects, normalizes, and enriches filmography data
+                  via ETL, serving rankings through an API and asynchronous
+                  queues (RabbitMQ).
                 </p>
-
                 <a
                   class="link"
                   href="https://github.com/rootcherry/scream-queens"
                   target="_blank"
-                  >Ver repositório</a
+                  >View repository</a
+                >
+              </div>
+            </div>
+
+            <!-- CURSE SANITY ORACLE -->
+            <div class="project">
+              <a
+                href="https://github.com/rootcherry/curse-sanity-oracle"
+                target="_blank"
+              >
+                <div class="project-card-custom-img">
+                  <span class="halloween-title">Curse Sanity Oracle</span>
+                </div>
+              </a>
+
+              <div class="project-content">
+                <p class="project-title">Curse Sanity Oracle</p>
+                <p class="project-description">
+                  Architectural exploration implementing Domain-Driven Design
+                  (DDD), Value Objects, Entities, and Hexagonal Architecture
+                  (Ports & Adapters) to decouple business logic from external
+                  frameworks.
+                </p>
+                <a
+                  class="link"
+                  href="https://github.com/rootcherry/curse-sanity-oracle"
+                  target="_blank"
+                  >View repository</a
                 >
               </div>
             </div>
@@ -164,15 +168,14 @@
       <!-- CONTACT -->
       <section class="contact" id="contato">
         <div class="container">
-          <h2 class="heading-secondary">Entre em contato</h2>
+          <h2 class="heading-secondary">Get in touch</h2>
           <p>
-            Você pode falar comigo pelo email
-            <a href="mailto:hi.chrisn@gmail.com">hi.chrisn@gmail.com</a>,
-            ou me encontrar no
-            <a href="https://github.com/rootcherry" target="_blank">GitHub</a> e
-            <a
-              href="https://www.linkedin.com/in/cristiano-noga"
-              target="_blank"
+            You can reach me via email at
+            <a href="mailto:hi.chrisn@gmail.com">hi.chrisn@gmail.com</a>, or
+            find me on
+            <a href="https://github.com/rootcherry" target="_blank">GitHub</a>
+            and
+            <a href="https://www.linkedin.com/in/cristiano-noga" target="_blank"
               >LinkedIn</a
             >.
           </p>
@@ -184,8 +187,8 @@
     <footer class="footer">
       <div class="container">
         <p>
-          &copy; <span id="cur-year"></span> Cristiano — Todos os direitos
-          reservados.
+          &copy; <span id="cur-year"></span> Cristiano Noga — All rights
+          reserved.
         </p>
       </div>
     </footer>

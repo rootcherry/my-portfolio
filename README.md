@@ -1,8 +1,8 @@
 # My Portfolio
 
-Hi! I'm Chris, a Back-end Developer specializing in JavaScript, Node.js, and software engineering.  
+Hi! I'm Chris, a Backend and Data Systems Engineer focused on Python, Node.js, and Software Architecture.  
 
-This portfolio showcases some of my projects, focusing on backend development, data processing, and web scraping.  
+This portfolio showcases my core backend systems, ETL data pipelines, and architectural explorations.  
 
 🌐 **Visit my website:** [Chris's Portfolio](https://hello-chrisn.netlify.app/)  
 
@@ -10,7 +10,9 @@ This portfolio showcases some of my projects, focusing on backend development, d
 
 ---
 
-## Featured Project
+## Featured Projects
 
-**Fur-riends** – A project that gathers information from non-profit animal welfare organizations, helping people find ways to contribute and support local initiatives.  
-[View on GitHub](https://github.com/rootcherry/fur-riends)
+- **Horrorverse** – A data pipeline and ETL system built with Python, SQLite, Node.js, and RabbitMQ.  
+- **Curse Sanity Oracle** – An architectural exploration implementing Domain-Driven Design (DDD) and Hexagonal Architecture (Ports & Adapters).  
+
+[View GitHub Profile](https://github.com/rootcherry)

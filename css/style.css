@@ -194,6 +194,48 @@ body {
 }
 
 /* =========================
+   CURSE
+========================= */
+.project a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project a:hover,
+.project a:active,
+.project a:focus {
+  text-decoration: none;
+}
+
+.project-card-custom-img {
+  background-color: #0b0b0b;
+  /* matches the exact height of the Horrorverse image */
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px; /* aligned with the border-radius of the main image (6px) */
+  border: 1px solid #1a1a1a;
+  transition: border-color 0.3s ease;
+}
+
+.project-card-custom-img:hover {
+  border-color: #ff7518;
+}
+
+.halloween-title {
+  font-family: "Inter", sans-serif;
+  color: #ff7518 !important; /* classic Halloween orange, forced to prevent link color override */
+  font-size: 1.8rem; /* adjusted */
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 0 1rem;
+  text-decoration: none !important;
+  text-shadow: 0 0 10px rgba(255, 117, 24, 0.2);
+}
+
+/* =========================
    Contact
 ========================= */
 .contact {
